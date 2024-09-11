@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="index.html" class="logo">ABC Restaurant</a>
+
+      <nav class="navbar">
+         <a href="index.html">Home</a>
+         <a href="reservation.html">reservation</a>
+         <a href="Gallery.html">Gallery</a>
+         <a href="payment.html">payment</a>
+         <a href="about.html">about</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">Malsha Madhurangi</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>About</h3>
+   <p><a href="index.html">home </a> <span> / about</span></p>
+</div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/about-img.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>About us</h3>
+         <p>Welcome to ABC Restaurant, where exceptional flavors meet a warm, inviting atmosphere. At ABC, we pride ourselves on crafting delicious, fresh dishes using the finest ingredients, prepared with care and passion. Whether you're here for a casual meal or a special occasion, we strive to provide an unforgettable dining experience with excellent service. Come join us and savor the taste of creativity and quality!</p>
+
+      </div>
+
+   </div>
+
+</section>
+
+<section class="steps">
+
+   <h1 class="title">3 simple steps</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/step-1.png" alt="">
+         <h3>select food</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/step-2.jpg" alt="">
+         <h3>Book a table</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/step-3.png" alt="">
+         <h3>enjoy food!</h3>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:malshag@gmail.com">malshag@gmail.com</a>
+         <a href="mailto:tharindug@gmail.com">tharindug@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>00:07am to 00:12pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="https://www.google.com/maps">55/A Colombo 04</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:1234567890">076-1234567</a>
+         <a href="tel:1112223333">011-1234567</a>
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2024 by <span>ABC Resturant</span> | all rights reserved!</div>
+
+</footer>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".reviews-slider", {
+   loop:true,
+   grabCursor:true,
+            spaceBetween: 20,
+   pagination: {
+      el: ".swiper-pagination",
+   },
+   breakpoints: {
+      550: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+   },
+});
+
+</script>
+
+</body>
+</html>
